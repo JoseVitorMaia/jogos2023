@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogos</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Genos:ital@1&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <main>
+        <article>
+
+            <h1>Jogos finalizados em 2023</h1>
+
+            <h3 id="nomeJogo">The Ascent</h3>
+            <img src="imagens/ascent.jpg" alt="" id="imgJogo">
+
+            <p id="sinopseJogo">
+                The Ascent é um videogame de RPG de ação com tema cyberpunk desenvolvido pelo estúdio de jogos indie sueco Neon Giant e publicado pela Curve Digital para Microsoft Windows, Xbox Series X/S e Xbox One em 29 de julho de 2021
+            </p>
+
+            <div id="buttons">
+                <span class="material-symbols-outlined" id="arrow_left" onclick="jogoAnterior()">arrow_back_ios</span>
+                <span class="material-symbols-outlined" id="arrow_right" onclick="proximoJogo()">arrow_forward_ios</span>
+
+                <abbr title="Random"><span class="material-symbols-outlined" id="btn_random" onclick="randomJogo()">shuffle</span></abbr>
+            </div>
+            
+            
+
+        </article>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

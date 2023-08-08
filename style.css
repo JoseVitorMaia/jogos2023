@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Genos', sans-serif;
+}
+
+body {
+    background-image: url(imagens/fundo.jpg);
+    background-size: cover;
+    background-color: #efefef;
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 85vw;
+    max-width: 600px;
+    min-height: 400px;
+    max-height: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.200);
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+main img {
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    margin: 15px;
+}
+
+main h1 {
+    margin-bottom: 10px;
+    background-image: linear-gradient(to right,transparent,rgba(211, 211, 211, 0.700),transparent);
+    
+}
+
+#sinopseJogo {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+#buttons {
+    display: block;
+    width: 100px;
+    margin: auto;
+}
+
+
+.material-symbols-outlined:hover {
+    cursor: pointer;
+    color: lightgrey;
+    transition: .5s;
+}
+
+#btn_random {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: lightgrey;
+    
+}
+
+#btn_random:hover {
+    color: rgba(0, 0, 0, 0.596);
+}
+
+@media screen and (max-width: 600px) {
+    main h1 {
+        font-size: 16px;
+    }
+}
